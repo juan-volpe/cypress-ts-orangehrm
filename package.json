@@ -1,0 +1,16 @@
+{
+  "name": "cypress-ts-orangehrm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/juan-volpe/cypress-ts-orangehrm.git",
+  "author": "Juan Francisco Volpe <juanvolpe87@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/juan-volpe/cypress-ts-orangehrm",
+  "devDependencies": {
+    "cypress": "13.1.0",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "test": "cypress open"
+  }
+}
