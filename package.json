@@ -4,13 +4,18 @@
   "main": "index.js",
   "repository": "https://github.com/juan-volpe/cypress-ts-orangehrm.git",
   "author": "Juan Francisco Volpe <juanvolpe87@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/juan-volpe/cypress-ts-orangehrm",
-  "devDependencies": {
-    "cypress": "13.1.0",
-    "typescript": "5.2.2"
-  },
+  "license": "ISC",
+  "homepage": "https://github.com/saiotest/cypress-ts-orangehrm#readme",
   "scripts": {
     "test": "cypress open"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "cypress": "13.1.0",
+    "cypress-plugin-api": "2.11.1",
+    "dotenv": "16.3.1",
+    "esbuild": "0.19.2",
+    "eslint": "8.48.0",
+    "typescript": "5.2.2"
   }
 }
